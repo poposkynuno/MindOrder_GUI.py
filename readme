@@ -1,0 +1,43 @@
+Licencia & Autoría
+Desarrollado por Poposky Gomez.
+© 2026 Todos los derechos reservados.
+
+System Online. El tablero está en tus manos.
+
+
+# MindOrder Professional Edition
+
+![Status](https://img.shields.io/badge/Status-System%20Online-green)
+![Version](https://img.shields.io/badge/Version-1.1.0-blue)
+
+## Descripción
+MindOrder Professional Edition es una herramienta de optimización de entorno de trabajo diseñada para profesionales, desarrolladores y usuarios que requieren una estructura digital impecable. El software elimina la fricción cognitiva derivada del desorden digital, ejecutando procesos automatizados de categorización y mantenimiento del sistema con precisión quirúrgica.
+
+**El orden externo es el reflejo de la claridad mental.**
+
+## Características Principales
+
+* **Gestión Cronológica Inteligente:** Clasificación automatizada de archivos basándose en metadatos, distribuyendo el contenido en directorios estructurados por año y mes.
+* **Modos de Operación Dual:**
+    * *Modo Estándar (Auto):* Barrido sistemático de directorios críticos (Escritorio, Descargas, etc.).
+    * *Modo Quirúrgico (Manual):* Control granular sobre directorios específicos para intervenciones directas.
+* **Integridad del Sistema:** Integración de diagnósticos de Windows (SFC) para garantizar la estabilidad del sistema operativo.
+* **Interfaz Profesional:** Construida con `customtkinter` para una experiencia de usuario oscura, moderna y eficiente.
+
+## Requisitos Previos
+
+Para ejecutar el script, asegúrate de tener instalado Python 3.x y la librería necesaria:
+
+```bash
+pip install customtkinter
+
+Uso
+Ejecuta el script principal:
+
+Bash
+python MindOrder_GUI.py
+
+Para compilar tu propio ejecutable con icono personalizado:
+
+Bash
+python -m PyInstaller --clean --onefile --noconsole --icon=log.ico MindOrder_GUI
